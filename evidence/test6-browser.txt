@@ -1,0 +1,27 @@
+(Project_starter) labsuser@vscode:~/Project_starter$ agentcore invoke '{"prompt": "Go to https://www.udacity.com and tell me the page title.", "customer_id": "CUST-123", "session_id": "t6"}'
+╭─────────────────────────────────────────────────────────────────────────────────────── customer_support_agent ────────────────────────────────────────────────────────────────────────────────────────╮
+│ Session: 23fd00c6-3e3d-44da-bb97-88b553ef40f1                                                                                                                                                         │
+│ Request ID: 7275d452-e8bb-47e7-bb9b-0a45957a626c                                                                                                                                                      │
+│ ARN: arn:aws:bedrock-agentcore:us-east-1:023202853603:runtime/customer_support_agent-8UDlxEAHj7                                                                                                       │
+│ Logs: aws logs tail /aws/bedrock-agentcore/runtimes/customer_support_agent-8UDlxEAHj7-DEFAULT --log-stream-name-prefix "2026/10/02/[runtime-logs" --follow                                            │
+│       aws logs tail /aws/bedrock-agentcore/runtimes/customer_support_agent-8UDlxEAHj7-DEFAULT --log-stream-name-prefix "2026/10/02/[runtime-logs" --since 1h                                          │
+│ GenAI Dashboard: https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-observability/agent-core                                                                                      │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Response:
+The page title for https://www.udacity.com is:
+
+**"Learn the Latest Tech Skills; Advance Your Career | Udacity"**
+(Project_starter) labsuser@vscode:~/Project_starter$ agentcore invoke '{"prompt": "Go to https://www.amazon.com and tell me the page title.", "customer_id": "CUST-123", "session_id": "t6"}'
+╭─────────────────────────────────────────────────────────────────────────────────────── customer_support_agent ────────────────────────────────────────────────────────────────────────────────────────╮
+│ Session: 23fd00c6-3e3d-44da-bb97-88b553ef40f1                                                                                                                                                         │
+│ Request ID: 4d64bf26-f6eb-4aaa-8154-1eb991e4be96                                                                                                                                                      │
+│ ARN: arn:aws:bedrock-agentcore:us-east-1:023202853603:runtime/customer_support_agent-8UDlxEAHj7                                                                                                       │
+│ Logs: aws logs tail /aws/bedrock-agentcore/runtimes/customer_support_agent-8UDlxEAHj7-DEFAULT --log-stream-name-prefix "2026/10/02/[runtime-logs" --follow                                            │
+│       aws logs tail /aws/bedrock-agentcore/runtimes/customer_support_agent-8UDlxEAHj7-DEFAULT --log-stream-name-prefix "2026/10/02/[runtime-logs" --since 1h                                          │
+│ GenAI Dashboard: https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-observability/agent-core                                                                                      │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Response:
+The page title for Amazon.com is: **Amazon.com. Spend less. Smile more.**
+(Project_starter) labsuser@vscode:~/Project_starter$

@@ -1,0 +1,19 @@
+(Project_starter) labsuser@vscode:~/Project_starter$ agentcore invoke '{"prompt": "What are the benefits of the Platinum loyalty tier?", "customer_id": "CUST-123", "session_id": "t3"}'
+╭─────────────────────────────────────────────────────────────────────────────────────── customer_support_agent ────────────────────────────────────────────────────────────────────────────────────────╮
+│ Session: 9dff1f1e-87e8-4318-9607-5737b8fae2e1                                                                                                                                                         │
+│ Request ID: 9d5ed0f9-f26a-4cd4-bb21-31de4bf8909d                                                                                                                                                      │
+│ ARN: arn:aws:bedrock-agentcore:us-east-1:023202853603:runtime/customer_support_agent-8UDlxEAHj7                                                                                                       │
+│ Logs: aws logs tail /aws/bedrock-agentcore/runtimes/customer_support_agent-8UDlxEAHj7-DEFAULT --log-stream-name-prefix "2026/10/02/[runtime-logs" --follow                                            │
+│       aws logs tail /aws/bedrock-agentcore/runtimes/customer_support_agent-8UDlxEAHj7-DEFAULT --log-stream-name-prefix "2026/10/02/[runtime-logs" --since 1h                                          │
+│ GenAI Dashboard: https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-observability/agent-core                                                                                      │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Response:
+The **Platinum loyalty tier** offers these key benefits:
+
+- **Free same-day shipping** on eligible orders  
+- **15% discount** on purchases (across most product categories)  
+- **Priority customer support** — faster response times and dedicated assistance  
+
+You’ll also retain all Gold-tier perks like free expedited shipping and the 10% accessories discount.
+(Project_starter) labsuser@vscode:~/Project_starter$

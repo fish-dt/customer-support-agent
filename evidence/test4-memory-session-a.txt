@@ -1,0 +1,21 @@
+(Project_starter) labsuser@vscode:~/Project_starter$ agentcore invoke '{"prompt": "Hi, I am Jane. I prefer concise responses.", "customer_id": "CUST-123", "session_id": "s-A"}' | tee evidence/test4-memory-session-a.txt
+tee: evidence/test4-memory-session-a.txt: No such file or directory
+╭─────────────────────────────────────────────────────────────────────────────────────── customer_support_agent ────────────────────────────────────────────────────────────────────────────────────────╮
+│ Session: 9dff1f1e-87e8-4318-9607-5737b8fae2e1                                                                                                                                                         │
+│ Request ID: 4dbacc48-6d7e-4d8b-9494-8e9b7090aa78                                                                                                                                                      │
+│ ARN: arn:aws:bedrock-agentcore:us-east-1:023202853603:runtime/customer_support_agent-8UDlxEAHj7                                                                                                       │
+│ Logs: aws logs tail /aws/bedrock-agentcore/runtimes/customer_support_agent-8UDlxEAHj7-DEFAULT --log-stream-name-prefix "2026/10/02/[runtime-logs" --follow                                            │
+│       aws logs tail /aws/bedrock-agentcore/runtimes/customer_support_agent-8UDlxEAHj7-DEFAULT --log-stream-name-prefix "2026/10/02/[runtime-logs" --since 1h                                          │
+│ GenAI Dashboard: https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-observability/agent-core                                                                                      │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Response:
+Hello Jane! I’ve got your preferences set for concise responses.
+
+Here’s a quick update on your recent orders:
+
+- **ORD-002 (Kindle Paperwhite)** – Return & refund approved (Refund ID **REF-TBE9FBSO** for **$139.99**). The funds should appear in your account within **3‑5 business days** (as of Oct 2, 2026).
+
+- **ORD-001 (Wireless Headphones Pro)** – Shipped via **UPS** (Tracking: **TRK987654321**). Estimated delivery: **October 4, 2026**.
+
+Let me know if you need anything else!

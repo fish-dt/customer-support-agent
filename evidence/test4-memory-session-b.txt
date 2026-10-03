@@ -1,0 +1,13 @@
+(Project_starter) labsuser@vscode:~/Project_starter$ agentcore invoke '{"prompt": "Do you remember my name and communication preference?", "customer_id": "CUST-123", "session_id": "s-B"}'
+╭─────────────────────────────────────────────────────────────────────────────────────── customer_support_agent ────────────────────────────────────────────────────────────────────────────────────────╮
+│ Session: 9dff1f1e-87e8-4318-9607-5737b8fae2e1                                                                                                                                                         │
+│ Request ID: b3667160-5d24-4499-b12b-f5f0e19ca906                                                                                                                                                      │
+│ ARN: arn:aws:bedrock-agentcore:us-east-1:023202853603:runtime/customer_support_agent-8UDlxEAHj7                                                                                                       │
+│ Logs: aws logs tail /aws/bedrock-agentcore/runtimes/customer_support_agent-8UDlxEAHj7-DEFAULT --log-stream-name-prefix "2026/10/02/[runtime-logs" --follow                                            │
+│       aws logs tail /aws/bedrock-agentcore/runtimes/customer_support_agent-8UDlxEAHj7-DEFAULT --log-stream-name-prefix "2026/10/02/[runtime-logs" --since 1h                                          │
+│ GenAI Dashboard: https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-observability/agent-core                                                                                      │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Response:
+Yes Jane, I remember your name and that you prefer concise responses. How can I assist you today?
+(Project_starter) labsuser@vscode:~/Project_starter$ 

@@ -1,0 +1,26 @@
+(Project_starter) labsuser@vscode:~/Project_starter$ agentcore invoke '{"prompt": "I am a Gold member with 4250 points. Calculate my discount on a $150 standard order.", "customer_id": "CUST-123", "session_id": "t5"}'
+╭────────────────────────────────────────────────────────────────────── customer_support_agent ───────────────────────────────────────────────────────────────────────╮
+│ Session: 23fd00c6-3e3d-44da-bb97-88b553ef40f1                                                                                                                       │
+│ Request ID: 710713c6-9630-4c50-b90f-2ba1a1650d82                                                                                                                    │
+│ ARN: arn:aws:bedrock-agentcore:us-east-1:023202853603:runtime/customer_support_agent-8UDlxEAHj7                                                                     │
+│ Logs: aws logs tail /aws/bedrock-agentcore/runtimes/customer_support_agent-8UDlxEAHj7-DEFAULT --log-stream-name-prefix "2026/10/02/[runtime-logs" --follow          │
+│       aws logs tail /aws/bedrock-agentcore/runtimes/customer_support_agent-8UDlxEAHj7-DEFAULT --log-stream-name-prefix "2026/10/02/[runtime-logs" --since 1h        │
+│ GenAI Dashboard: https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-observability/agent-core                                                    │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Response:
+### Your Gold Member Discount Calculation
+
+**Order total:** $150.00  
+**Your discounts:**  
+- **Points redemption:** 4,000 points ($40.00)  
+- **Gold tier discount:** 10% ($11.00)  
+
+**Final total:** $99.00  
+**Total savings:** $51.00  
+
+**Remaining points:** 349 points  
+**Points earned on this order:** 99 points  
+
+Let me know if you'd like to proceed with placing this order or need anything else!
+(Project_starter) labsuser@vscode:~/Project_starter$ 

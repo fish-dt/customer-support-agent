@@ -1,0 +1,22 @@
+(Project_starter) labsuser@vscode:~/Project_starter$ agentcore invoke '{"prompt": "Can you track order ORD-001?", "customer_id": "CUST-123", "session_id": "t1"}'
+╭────────────────────────────────────────────────────────── customer_support_agent ───────────────────────────────────────────────────────────╮
+│ Session: 9dff1f1e-87e8-4318-9607-5737b8fae2e1                                                                                               │
+│ Request ID: 06b8f205-3fbd-4683-8e83-0a0d00b556c2                                                                                            │
+│ ARN: arn:aws:bedrock-agentcore:us-east-1:023202853603:runtime/customer_support_agent-8UDlxEAHj7                                             │
+│ Logs: aws logs tail /aws/bedrock-agentcore/runtimes/customer_support_agent-8UDlxEAHj7-DEFAULT --log-stream-name-prefix                      │
+│ "2026/10/02/[runtime-logs" --follow                                                                                                         │
+│       aws logs tail /aws/bedrock-agentcore/runtimes/customer_support_agent-8UDlxEAHj7-DEFAULT --log-stream-name-prefix                      │
+│ "2026/10/02/[runtime-logs" --since 1h                                                                                                       │
+│ GenAI Dashboard: https://console.aws.amazon.com/cloudwatch/home?region=us-east-1#gen-ai-observability/agent-core                            │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+Response:
+Your order **ORD-001** is **SHIPPED** and on its way via **UPS**.
+
+**Details:**
+- **Item:** Wireless Headphones Pro (1 x $89.99)
+- **Tracking #:** TRK987654321
+- **Estimated Delivery:** October 4, 2026
+
+Would you like me to help with anything else regarding this order?
+(Project_starter) labsuser@vscode:~/Project_starter$ 
